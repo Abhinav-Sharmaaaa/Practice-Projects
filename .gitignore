@@ -1,0 +1,158 @@
+*.iml# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+debug.log
+
+# Temporary Files
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# macOS Files
+*.DS_Store
+
+# Windows Files
+Thumbs.db
+ehthumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Android
+*.apk
+*.dex
+*.class
+*.jar
+*.keystore
+/build/
+local.properties
+.cxx/
+
+# iOS
+*.xcuserstate
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.ipa
+*.dSYM
+Pods/
+
+# Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj
+*.pdb
+
+# PHP
+vendor/
+*.lock
+
+# Ruby
+*.gem
+Gemfile.lock
+log/
+tmp/
+.bundle/
+vendor/bundle/
+
+# Go
+*.exe
+*.out
+*.a
+
+# JavaScript/React
+build/
+dist/
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Linux
+*~ 
+*.bak
+*.swp
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Git
+*.orig
+*.rej
+*.patch
+*~
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ansible
+*.retry
+
+# Secrets
+.env
+.env.*
+config/secrets.yml
+
+# Docker
+*.env
+docker-compose.override.yml
+*.log
+*.pid
+logs/
+tmp/
+
+# CI/CD
+/.github/workflows/*.lock
+/.circleci/*.lock
+/.gitlab-ci.yml
+
+# Miscellaneous
+.vscode/
+*.bak
+*.swp
+*.swo
+*.tmp

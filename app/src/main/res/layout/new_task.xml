@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:hint="Add a task"
+        android:id="@+id/newTask"/>
+
+    <Button
+        android:id="@+id/newTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newTask"
+        android:layout_alignParentEnd="true"
+        android:text="Save"
+        android:color="@android:color/holo_blue_light"/>
+
+</RelativeLayout>
